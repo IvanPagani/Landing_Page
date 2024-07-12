@@ -1,0 +1,77 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, "Times New Romam", Georgia, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    /* display: flex; */
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.heroheader {
+    display: flex;
+    gap: 20px;
+    padding: 10px 200px;
+}
+
+.herobody {
+    display: flex;
+    gap: 50px;
+    padding: 100px 200px;
+
+    align-items: stretch;
+}
+
+.logotext {
+    flex: 1 1 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.linkstext a {
+    flex: 1 1 0;
+    padding: 0 5px;
+
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.maintext {
+    flex: 1 1 0;
+    color: #F9FAF8;
+}
+
+.maintext h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.maintext p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.maintext button {
+    padding: 5px 25px;
+    border: none;
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image {
+    flex: 1 1 0;
+    text-align: center;
+    background-color: #76767c;
+}
