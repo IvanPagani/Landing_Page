@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: Arial, "Times New Romam", Georgia, sans-serif;
+    font-family: 'Roboto', Arial, "Times New Romam", Georgia, sans-serif;
     margin: 0;
 }
 
@@ -66,16 +66,16 @@
     font-weight: bolder;
 }
 
-.secondarytext1 {
+.secondarytext1 p {
     color: #E5E7EB;
     font-size: 18px;
-    margin-bottom: 10px;
 }
 
 .button1 button {
     padding: 6px 30px;
     border: none;
     border-radius: 8px;
+    margin-top: 10px;
 
     color: #F9FAF8;
     background-color: #3882F6;
@@ -176,4 +176,11 @@
     background-color: #3882F6;
     font-size: 18px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 40px 180px;
 }
