@@ -8,7 +8,7 @@
 
 .hero {
     background-color: #1F2937;
-    padding: 10px 200px;
+    padding: 0 180px;
 }
 
 .header {
@@ -38,18 +38,23 @@
 
 .content {
     display: flex;
-    gap: 50px;
+    gap: 35px;
     padding: 100px 0;
 }
 
-.contentleft, .contentright {
-    flex: 1 1 0;
+.contentleft {
+    flex: 1 1 48%;
+}
+
+.contentright {
+    flex: 1 1 52%;
 }
 
 .contentright {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 
     color: #F9FAF8;
     background-color: #76767c;
@@ -78,7 +83,6 @@
     font-weight: bold;
 }
 
-
 .info {
     padding: 50px 200px;
 }
@@ -94,8 +98,8 @@
 .infocontainer {
     display: flex;
     justify-content: center;
-    padding: 50px 80px;
-    gap: 40px;
+    padding: 50px 60px;
+    gap: 50px;
 }
 
 .box {
@@ -118,4 +122,26 @@
     color: #626268;
     font-size: 18px;
     margin-top: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+}
+
+.inspiration {
+    color: #3f3f43;
+    font-size: 36px;
+    font-style: italic;
+
+    padding: 0 60px;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: end;
+
+    padding: 5px 100px;
 }
