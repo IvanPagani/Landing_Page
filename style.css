@@ -72,7 +72,7 @@
     margin-bottom: 10px;
 }
 
-.button button {
+.button1 button {
     padding: 6px 30px;
     border: none;
     border-radius: 8px;
@@ -85,6 +85,7 @@
 
 .info {
     padding: 50px 200px;
+    background-color: #F9FAF8;
 }
 
 .infotext h2 {
@@ -144,4 +145,35 @@
     text-align: end;
 
     padding: 5px 100px;
+}
+
+.call {
+    padding: 80px 180px;
+    background-color: #F9FAF8;
+}
+
+.callcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 100px;
+}
+
+.calltext {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.button2 button {
+    padding: 6px 30px;
+    border: solid 2px #F9FAF8;
+    border-radius: 8px;
+
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
 }
